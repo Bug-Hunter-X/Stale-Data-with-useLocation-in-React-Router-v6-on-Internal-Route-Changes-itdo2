@@ -1,0 +1,1 @@
+This repository demonstrates a common issue in React Router v6 where the `useLocation` hook doesn't immediately update when the route changes within the same component.  This can result in stale data being displayed.  The `staleLocationBug.js` file showcases the problem, while `staleLocationSolution.js` provides a solution using `useEffect` to track location changes.
